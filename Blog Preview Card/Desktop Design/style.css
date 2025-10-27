@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+a {
+    font-family: "Figtree";
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color:#111111;
+    text-decoration-line: none;
+    -moz-text-decoration-line: none;
+}
+
+a:hover {
+    color:#F4D04E;
+}
+
+body {
+    background-color:#F4D04E;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+
+#image-container img {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+#author {
+    display: flex;
+    gap: 10px;
+    font-family: "Figtree";
+    font-size: 18px;
+}
+
+#date {
+    font-weight: lighter;
+}
+
+#card-box {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 1px solid #111111;
+    width: 337px;
+    width: 337px;
+    height: 520px;
+    padding: 24px 12px 8px 12px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px #111111;
+}
+
+h3#tags {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #F4D04E;
+    width: 75px;
+    padding: 4px 8px 4px 8px;
+    font-family: "Figtree";
+}
+
+p {
+    font-family: "Figtree";
+    letter-spacing: 0px;
+    color: #6b6b6b;
+}
+
+h4#date {
+    font-family: "Figtree";
+    font-weight: 500;
+}
